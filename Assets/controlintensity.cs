@@ -8,11 +8,14 @@ public class controlintensity : MonoBehaviour
 {
 
     public Material mat;
-    public float intensity = 12;
-    public float maxRange = 254f;
+    public float minusRate = 1f;
     public float colorControl = 1f;
-    public float t = 0.5f;
-    public bool ForBacWarf = true;
+
+    public Color color1;
+    public Color color2;
+
+    public float t = 3f;
+    public int ForBacWarf = 0;
 
 
 
@@ -20,9 +23,6 @@ public class controlintensity : MonoBehaviour
     void Start()
     {
         mat = GetComponent<TilemapRenderer>().material;
-        
-
-
         //Vector4 colorVec = new Vector4(10,11,12,0);
         //mat.SetVector("_GlowColor",colorVec);
 
@@ -34,28 +34,53 @@ public class controlintensity : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            ForBacWarf = false;
-
+            ForBacWarf = 0;
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            ForBacWarf = true;
-
+            ForBacWarf = 0;
         }
-        if (ForBacWarf == false) 
-        {
+
+        if (ForBacWarf == 0){
+            StartCoroutine(FadeColorUp());
+            ForBacWarf = 1;
+        }
+                
             
-        }
-
-        if (ForBacWarf == true)
-        {
+        
             //mat.SetColor("_GlowColor", Color.Lerp(new Color(maxRange, maxRange, maxRange, 0), blackLerp, t));
             
+        
+    }
+    
+    IEnumerator FadeColorUp()
+    {
+        //Renderer renderer = GetComponent<Renderer>();
+        mat = GetComponent<TilemapRenderer>().material;
+        Color startColor = new Color(0, 0, 0, 0); 
+        Color endColor = new Color(255, 255, 255, 0);
+        float duration = 3f;
+        float elapsedTime = 0f;
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+            float t = elapsedTime / duration;
+            Color currentColor = Color.Lerp(startColor, endColor, t);
+            mat.SetColor("_GlowColor", currentColor);
+            //Debug.Log("from function" + redColor + " " + greenColor + " " + blueColor);
+            yield return null ;
+        }
+        duration = 3f;
+        elapsedTime = 0f;
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+            float t = elapsedTime / duration;
+            Color currentColor1 = Color.Lerp(endColor, startColor, t);
+            mat.SetColor("_GlowColor", currentColor1);
+            //Debug.Log("from function" + redColor + " " + greenColor + " " + blueColor);
+            yield return null;
         }
     }
 
-    public void BToW() 
-    {
-        
-    }
 }

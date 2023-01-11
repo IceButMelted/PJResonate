@@ -286,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198081319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.75, y: 2.07, z: 0}
+  m_LocalPosition: {x: 4.71, y: 6.58, z: 0}
   m_LocalScale: {x: -8.75, y: 1.0795, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -419,7 +419,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316080679}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.38, y: 3.39, z: 0}
+  m_LocalPosition: {x: -3.62, y: 6.14, z: 0}
   m_LocalScale: {x: -8.75, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1246,7 +1246,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
   m_Origin: {x: -9, y: -5, z: 0}
   m_Size: {x: 9, y: 6, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -1318,7 +1318,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mat: {fileID: 2100000, guid: 3ce543866801f264a9308e00a5409edb, type: 2}
-  intensity: 1
+  minusRate: 1
+  colorControl: 1
+  color1: {r: 1, g: 1, b: 1, a: 0}
+  color2: {r: 0, g: 0, b: 0, a: 0}
+  duration: 1
+  redColor: 255
+  greenColor: 255
+  blueColor: 255
+  t: 0.5
+  ForBacWarf: 1
 --- !u!1 &2060713552
 GameObject:
   m_ObjectHideFlags: 0
