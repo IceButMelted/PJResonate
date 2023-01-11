@@ -58,7 +58,7 @@ public class controlintensity : MonoBehaviour
         //Renderer renderer = GetComponent<Renderer>();
         mat = GetComponent<TilemapRenderer>().material;
         Color startColor = new Color(0, 0, 0, 0); 
-        Color endColor = new Color(255, 255, 255, 0);
+        Color endColor = new Color(100, 100, 100, 0);
         float duration = 3f;
         float elapsedTime = 0f;
         while (elapsedTime < duration)
