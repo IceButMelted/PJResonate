@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 9fd339d7a0314ea449d0585a9d3e2207
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TilesetMask512x512_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 10752
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c5f33451ac5fa4d8ccdd3281cbf49d
+      internalID: 1785928637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 10752
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071796aa0f4422d438d3aede34363fc3
+      internalID: 2136342820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 10752
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a602cbbe24d79764c82eb94a1523751f
+      internalID: -1129637267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 10240
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620cb723e21ea43439bc83ee430c636e
+      internalID: 1850812291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 10240
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6907f4fa5799b364a8b3e47366e56e79
+      internalID: -40475833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 9728
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375f8ddd284b71f4c9e33450ae3f3c38
+      internalID: -1597505789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 9728
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d941d06733770404da4c7362419762e9
+      internalID: 440341303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_17
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 9728
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da9c7a2967f53c4a83001f2b535199f
+      internalID: 158177927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 8704
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de64d5d601a95734d9c266dc5b6f5ca0
+      internalID: -1651575731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_29
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 8704
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2e1e500f9316a40b53f56e0ac5801e
+      internalID: -1238379563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_30
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 8704
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8429db61d488844b13dd56bc97d64b
+      internalID: -531554492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_32
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 8704
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec672fa077f1fb14d96c6551eba750ca
+      internalID: -1952085138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_33
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 8704
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6875b7e379e1014ab974ebc4875418c
+      internalID: -1735653012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_35
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 8192
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9d57f08c2762b4b962711ad2219e05
+      internalID: 932386097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 8192
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7713f4d94a0de1b4492094a0c54a3709
+      internalID: -2081520681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_39
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 8192
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3807147d9f7b3d24980c141ec3f912d3
+      internalID: 1044953663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_40
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 8192
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c0bea1cb04d824d980f60a81d717b9
+      internalID: -1300403416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7680
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f51213013aa433478d69d1b7a04e6d9
+      internalID: -1559812225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 7680
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39e7f398cdefc84a8580a72bf108ecc
+      internalID: 1146645527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7680
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d012455de8f7dc949a5456d6a4bca62e
+      internalID: 1334657888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TilesetMask512x512_3: -244599616
+      TilesetMask512x512_29: -1238379563
+      TilesetMask512x512_25: 1395910355
+      TilesetMask512x512_38: -239154023
+      TilesetMask512x512_23: -1865951426
+      TilesetMask512x512_33: -1735653012
+      TilesetMask512x512_9: -690383823
+      TilesetMask512x512_47: 984350448
+      TilesetMask512x512_22: -333625487
+      TilesetMask512x512_42: -1559812225
+      TilesetMask512x512_43: 1146645527
+      TilesetMask512x512_18: -5704524
+      TilesetMask512x512_19: -747016986
+      TilesetMask512x512_7: 2136342820
+      TilesetMask512x512_24: 913179840
+      TilesetMask512x512_36: 1918237169
+      TilesetMask512x512_13: 2007797944
+      TilesetMask512x512_11: 1850812291
+      TilesetMask512x512_20: -1186210235
+      TilesetMask512x512_8: -1129637267
+      TilesetMask512x512_17: 158177927
+      TilesetMask512x512_28: -1651575731
+      TilesetMask512x512_39: 1044953663
+      TilesetMask512x512_27: 722984365
+      TilesetMask512x512_16: 440341303
+      TilesetMask512x512_5: 1941285049
+      TilesetMask512x512_0: -883127868
+      TilesetMask512x512_45: 82197658
+      TilesetMask512x512_31: 1179825
+      TilesetMask512x512_35: 932386097
+      TilesetMask512x512_44: 1334657888
+      TilesetMask512x512_6: 1785928637
+      TilesetMask512x512_10: -1179140482
+      TilesetMask512x512_34: -1229153532
+      TilesetMask512x512_15: -1597505789
+      TilesetMask512x512_12: -40475833
+      TilesetMask512x512_41: 1402891277
+      TilesetMask512x512_2: 928370831
+      TilesetMask512x512_1: 82387162
+      TilesetMask512x512_26: 1516773385
+      TilesetMask512x512_40: -1300403416
+      TilesetMask512x512_30: -531554492
+      TilesetMask512x512_4: -986639269
+      TilesetMask512x512_46: -683315364
+      TilesetMask512x512_21: 1526717198
+      TilesetMask512x512_32: -1952085138
+      TilesetMask512x512_14: -321615484
+      TilesetMask512x512_48: 401310519
+      TilesetMask512x512_37: -2081520681
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

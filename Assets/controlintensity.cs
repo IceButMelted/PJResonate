@@ -58,7 +58,7 @@ public class controlintensity : MonoBehaviour
         //Renderer renderer = GetComponent<Renderer>();
         mat = GetComponent<TilemapRenderer>().material;
         Color startColor = new Color(0, 0, 0, 0); 
-        Color endColor = new Color(100, 100, 100, 0);
+        Color endColor = new Color(255, 255, 255, 255);
         float duration = 3f;
         float elapsedTime = 0f;
         while (elapsedTime < duration)
@@ -66,7 +66,7 @@ public class controlintensity : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / duration;
             Color currentColor = Color.Lerp(startColor, endColor, t);
-            mat.SetColor("_GlowColor", currentColor);
+            mat.SetColor("_ColorAlpha", currentColor);
             //Debug.Log("from function" + redColor + " " + greenColor + " " + blueColor);
             yield return null ;
         }
@@ -77,7 +77,7 @@ public class controlintensity : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / duration;
             Color currentColor1 = Color.Lerp(endColor, startColor, t);
-            mat.SetColor("_GlowColor", currentColor1);
+            mat.SetColor("_ColorAlpha", currentColor1);
             //Debug.Log("from function" + redColor + " " + greenColor + " " + blueColor);
             yield return null;
         }
