@@ -12,14 +12,14 @@ public class AlphaControl : MonoBehaviour
 
     private void Start()
     {
-        material = GetComponent<Renderer>().material;
+        material = GetComponent<TilemapRenderer>().material;
     }
 
     private void Update()
     {
-        Color color = material.GetColor("_ColorAlpha");
-        color.a = Mathf.Sin(Time.time * speed) * 0.5f + 0.5f;
-        material.SetColor("_ColorAlpha", color);
+        material.GetFloat("_FloatAlpha");
+        float a = Mathf.Sin(Time.time * speed) * 0.5f + 0.5f;
+        material.SetFloat("_FloatAlpha", a);
     }
 
 }

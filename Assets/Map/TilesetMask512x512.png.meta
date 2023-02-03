@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 512
@@ -682,9 +682,9 @@ TextureImporter:
       TilesetMask512x512_44: 1334657888
       TilesetMask512x512_6: 1785928637
       TilesetMask512x512_10: -1179140482
-      TilesetMask512x512_12: -40475833
-      TilesetMask512x512_15: -1597505789
       TilesetMask512x512_34: -1229153532
+      TilesetMask512x512_15: -1597505789
+      TilesetMask512x512_12: -40475833
       TilesetMask512x512_41: 1402891277
       TilesetMask512x512_60: 220553001
       TilesetMask512x512_2: 928370831
