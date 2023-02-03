@@ -101,78 +101,39 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TilesetMask512x512_6
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 10752
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55c5f33451ac5fa4d8ccdd3281cbf49d
-      internalID: 1785928637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_7
+      name: TilesetMask512x512_11
       rect:
         serializedVersion: 2
         x: 1536
         y: 10752
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 071796aa0f4422d438d3aede34363fc3
-      internalID: 2136342820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_8
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 10752
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a602cbbe24d79764c82eb94a1523751f
-      internalID: -1129637267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_11
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 10240
         width: 512
         height: 512
       alignment: 0
@@ -193,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2048
-        y: 10240
+        y: 10752
         width: 512
         height: 512
       alignment: 0
@@ -213,8 +174,8 @@ TextureImporter:
       name: TilesetMask512x512_15
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 9728
+        x: 3584
+        y: 10752
         width: 512
         height: 512
       alignment: 0
@@ -234,8 +195,8 @@ TextureImporter:
       name: TilesetMask512x512_16
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 9728
+        x: 4096
+        y: 10752
         width: 512
         height: 512
       alignment: 0
@@ -252,32 +213,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetMask512x512_17
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 9728
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3da9c7a2967f53c4a83001f2b535199f
-      internalID: 158177927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: TilesetMask512x512_28
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 8704
+        x: 1536
+        y: 9728
         width: 512
         height: 512
       alignment: 0
@@ -297,8 +237,8 @@ TextureImporter:
       name: TilesetMask512x512_29
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 8704
+        x: 2048
+        y: 9728
         width: 512
         height: 512
       alignment: 0
@@ -315,158 +255,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TilesetMask512x512_30
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 8704
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e8429db61d488844b13dd56bc97d64b
-      internalID: -531554492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_32
-      rect:
-        serializedVersion: 2
-        x: 3584
-        y: 8704
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec672fa077f1fb14d96c6551eba750ca
-      internalID: -1952085138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_33
-      rect:
-        serializedVersion: 2
-        x: 4096
-        y: 8704
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6875b7e379e1014ab974ebc4875418c
-      internalID: -1735653012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_35
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 8192
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a9d57f08c2762b4b962711ad2219e05
-      internalID: 932386097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_37
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 8192
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7713f4d94a0de1b4492094a0c54a3709
-      internalID: -2081520681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_39
-      rect:
-        serializedVersion: 2
-        x: 3584
-        y: 8192
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3807147d9f7b3d24980c141ec3f912d3
-      internalID: 1044953663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilesetMask512x512_40
-      rect:
-        serializedVersion: 2
-        x: 4096
-        y: 8192
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19c0bea1cb04d824d980f60a81d717b9
-      internalID: -1300403416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: TilesetMask512x512_42
       rect:
         serializedVersion: 2
         x: 1024
-        y: 7680
+        y: 8704
         width: 512
         height: 512
       alignment: 0
@@ -487,7 +280,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
-        y: 7680
+        y: 8704
         width: 512
         height: 512
       alignment: 0
@@ -508,7 +301,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2048
-        y: 7680
+        y: 8704
         width: 512
         height: 512
       alignment: 0
@@ -520,6 +313,321 @@ TextureImporter:
       bones: []
       spriteID: d012455de8f7dc949a5456d6a4bca62e
       internalID: 1334657888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 10752
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eaa10b5fcafdc4bb8323b6ccf68695
+      internalID: -1179140482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 10240
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a894e901ef3fc4485eca1bc810a657
+      internalID: -747016986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 10240
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014b43c4ad731554d8bf8c119c02b808
+      internalID: -1186210235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 10240
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adbf2e5c86bb6b4f87522137642f32d
+      internalID: -1865951426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_24
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 10240
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89342d55b3dc5cb4ea69e95b8d0c0d15
+      internalID: 913179840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_27
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 9728
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6a3cd40a3e27545bb34964d64b7630
+      internalID: 722984365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_46
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 8704
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719aaa2ebb72fcd4d947d032b4e632c4
+      internalID: -683315364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_47
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 8704
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f737473fa6f766842aa1bf66425e8bc8
+      internalID: 984350448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 8192
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebed41cd90bb22a46abc2a6db0c60569
+      internalID: -1387609462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_51
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 8192
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055301b629939f64fa1e1bae612dfac3
+      internalID: 1291901991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_53
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 8192
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220b31dc67becdb4c8503612d66e4404
+      internalID: -1992764675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_54
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 8192
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6dd95a8beef224fb6ccf4ae1bc0ccd
+      internalID: 313082622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_56
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7680
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dc5e5f449edf44b81f66c395025d16
+      internalID: -2094992378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_57
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 7680
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55d6cc5b685dee47bfc1b047ac5f951
+      internalID: -402367935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetMask512x512_58
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7680
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642e6e134636b594a973d49deee63a4f
+      internalID: -614545162
       vertices: []
       indices: 
       edges: []
@@ -537,26 +645,32 @@ TextureImporter:
     nameFileIdTable:
       TilesetMask512x512_3: -244599616
       TilesetMask512x512_29: -1238379563
+      TilesetMask512x512_49: -1387609462
       TilesetMask512x512_25: 1395910355
+      TilesetMask512x512_53: -1992764675
       TilesetMask512x512_38: -239154023
       TilesetMask512x512_23: -1865951426
       TilesetMask512x512_33: -1735653012
+      TilesetMask512x512_56: -2094992378
       TilesetMask512x512_9: -690383823
       TilesetMask512x512_47: 984350448
       TilesetMask512x512_22: -333625487
       TilesetMask512x512_42: -1559812225
       TilesetMask512x512_43: 1146645527
+      TilesetMask512x512_57: -402367935
       TilesetMask512x512_18: -5704524
       TilesetMask512x512_19: -747016986
       TilesetMask512x512_7: 2136342820
       TilesetMask512x512_24: 913179840
       TilesetMask512x512_36: 1918237169
+      TilesetMask512x512_59: 1643766963
       TilesetMask512x512_13: 2007797944
       TilesetMask512x512_11: 1850812291
       TilesetMask512x512_20: -1186210235
       TilesetMask512x512_8: -1129637267
       TilesetMask512x512_17: 158177927
       TilesetMask512x512_28: -1651575731
+      TilesetMask512x512_54: 313082622
       TilesetMask512x512_39: 1044953663
       TilesetMask512x512_27: 722984365
       TilesetMask512x512_16: 440341303
@@ -568,15 +682,20 @@ TextureImporter:
       TilesetMask512x512_44: 1334657888
       TilesetMask512x512_6: 1785928637
       TilesetMask512x512_10: -1179140482
-      TilesetMask512x512_34: -1229153532
-      TilesetMask512x512_15: -1597505789
       TilesetMask512x512_12: -40475833
+      TilesetMask512x512_15: -1597505789
+      TilesetMask512x512_34: -1229153532
       TilesetMask512x512_41: 1402891277
+      TilesetMask512x512_60: 220553001
       TilesetMask512x512_2: 928370831
       TilesetMask512x512_1: 82387162
+      TilesetMask512x512_50: 1280357601
       TilesetMask512x512_26: 1516773385
+      TilesetMask512x512_52: 1680445377
       TilesetMask512x512_40: -1300403416
       TilesetMask512x512_30: -531554492
+      TilesetMask512x512_55: -2098989886
+      TilesetMask512x512_51: 1291901991
       TilesetMask512x512_4: -986639269
       TilesetMask512x512_46: -683315364
       TilesetMask512x512_21: 1526717198
@@ -584,6 +703,7 @@ TextureImporter:
       TilesetMask512x512_14: -321615484
       TilesetMask512x512_48: 401310519
       TilesetMask512x512_37: -2081520681
+      TilesetMask512x512_58: -614545162
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
