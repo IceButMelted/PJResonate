@@ -25,7 +25,7 @@ public class AlphaControl : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.R))
         {
             starter = true;
         }
@@ -44,6 +44,12 @@ public class AlphaControl : MonoBehaviour
                 tilefading();
                 Debug.Log("Time is not up");
             } 
+        }
+
+        if (starter == false) 
+        {
+            material.GetFloat("_FloatAlpha");
+            material.SetFloat("_FloatAlpha", 0);
         }
     }
 

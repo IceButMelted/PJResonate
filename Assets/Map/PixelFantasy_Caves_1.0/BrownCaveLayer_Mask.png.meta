@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -44,12 +44,12 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -68,8 +68,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -19630,11 +19630,11 @@ TextureImporter:
       mainlev_build128x128_1451: -793015594
       mainlev_build128x128_1258: -1104051756
       mainlev_build128x128_980: -1208073464
+      mainlev_build128x128_161: -2110423729
       mainlev_build128x128_1502: -1984581436
-      mainlev_build128x128_2157: 366805988
       mainlev_build128x128_158: 492882911
       mainlev_build128x128_501: -104589964
-      mainlev_build128x128_161: -2110423729
+      mainlev_build128x128_2157: 366805988
       mainlev_build128x128_341: 536342483
       mainlev_build128x128_1048: 1054438446
       mainlev_build128x128_432: 1525470356
@@ -20054,16 +20054,16 @@ TextureImporter:
       mainlev_build128x128_634: -1598746340
       mainlev_build128x128_2102: 856767688
       mainlev_build128x128_1804: -843779607
+      mainlev_build128x128_1720: 1656884678
       mainlev_build128x128_865: -1467721078
-      mainlev_build128x128_1124: -2142543012
-      mainlev_build128x128_813: 1834082489
-      mainlev_build128x128_780: -1194812230
-      mainlev_build128x128_983: 934462187
       mainlev_build128x128_2289: -781545174
-      mainlev_build128x128_299: 420927910
+      mainlev_build128x128_813: 1834082489
+      mainlev_build128x128_1124: -2142543012
+      mainlev_build128x128_983: 934462187
+      mainlev_build128x128_780: -1194812230
       mainlev_build128x128_2020: 2141508246
       mainlev_build128x128_2082: 1373587093
-      mainlev_build128x128_1720: 1656884678
+      mainlev_build128x128_299: 420927910
       mainlev_build128x128_1621: 1369855509
       mainlev_build128x128_1313: 1730474393
       mainlev_build128x128_434: 825044868
