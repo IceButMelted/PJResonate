@@ -19,6 +19,8 @@ public class AlphaControl : MonoBehaviour
     private void Start()
     {
         material = GetComponent<TilemapRenderer>().material;
+        material.GetFloat("_FloatAlpha");
+        material.SetFloat("_FloatAlpha", 0);
     }
 
     private void Update()
