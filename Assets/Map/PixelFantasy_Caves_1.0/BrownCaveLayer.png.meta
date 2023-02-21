@@ -19501,8 +19501,8 @@ TextureImporter:
       name: BrownCaveLayer_0
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 5506
+        x: 1408
+        y: 5504
         width: 128
         height: 128
       alignment: 0
@@ -19526,8 +19526,8 @@ TextureImporter:
       name: BrownCaveLayer_1
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 5506
+        x: 1280
+        y: 5504
         width: 128
         height: 128
       alignment: 0
@@ -19551,8 +19551,8 @@ TextureImporter:
       name: BrownCaveLayer_2
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 5378
+        x: 1280
+        y: 5376
         width: 128
         height: 128
       alignment: 0
@@ -19576,8 +19576,8 @@ TextureImporter:
       name: BrownCaveLayer_3
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 5378
+        x: 1408
+        y: 5376
         width: 128
         height: 128
       alignment: 0
@@ -20182,13 +20182,13 @@ TextureImporter:
       mainlev_build128x128_634: -1598746340
       mainlev_build128x128_2102: 856767688
       mainlev_build128x128_1804: -843779607
-      mainlev_build128x128_865: -1467721078
-      mainlev_build128x128_1124: -2142543012
-      mainlev_build128x128_813: 1834082489
-      mainlev_build128x128_780: -1194812230
-      mainlev_build128x128_983: 934462187
-      mainlev_build128x128_2289: -781545174
       mainlev_build128x128_1720: 1656884678
+      mainlev_build128x128_865: -1467721078
+      mainlev_build128x128_2289: -781545174
+      mainlev_build128x128_813: 1834082489
+      mainlev_build128x128_1124: -2142543012
+      mainlev_build128x128_983: 934462187
+      mainlev_build128x128_780: -1194812230
       mainlev_build128x128_2020: 2141508246
       mainlev_build128x128_2082: 1373587093
       mainlev_build128x128_299: 420927910
