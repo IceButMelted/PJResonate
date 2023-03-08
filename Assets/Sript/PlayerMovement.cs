@@ -7,7 +7,10 @@ public class PlayerMovement : MonoBehaviour
 
     private float horizontal;
     private float speed = 8f;
-    private float jumpingPower = 16f;
+    public float jumpingPower = 4f;
+    private bool ISJUMPING;
+    private float jumpTime;
+    private float btnTime = 0.3f;
     private bool isFacingRight = true;
 
     [SerializeField] private Rigidbody2D rb;
@@ -30,8 +33,21 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         if ( Input.GetButtonDown("Jump") && IsGound()) {
-            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            ISJUMPING = true;
+            jumpTime = 0f;
         }
+
+        if (ISJUMPING) 
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            jumpTime += Time.deltaTime;
+        }
+
+        if (Input.GetButtonUp("Jump") | jumpTime > btnTime ) 
+        { 
+            ISJUMPING = false;
+        }
+
 
         Flip();
         AnimSet();

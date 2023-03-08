@@ -26,7 +26,7 @@ public class MicrophoneInput : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             getValueformMic = true;
             for (int i = 0; i < numReadings; ++i) 
@@ -35,17 +35,23 @@ public class MicrophoneInput : MonoBehaviour
             }
             currentReadingIndex = 0;
         }
-        if (Input.GetKeyUp(KeyCode.T))
+        if (Input.GetKeyUp(KeyCode.R))
         {
             getValueformMic = false;
             Debug.Log("Output " + string.Join(", ", readings));
         }
 
-            timeSinceLastReading += Time.deltaTime;
+        //use on alphaControl02
+        //getArrayfromMic();
+
+    }
+    public void  getArrayfromMic() {
+        timeSinceLastReading += Time.deltaTime;
         if (timeSinceLastReading >= delay && getValueformMic == true)
         {
             float level = GetMicLevel();
-            if (level < 0f) {
+            if (level < 0f)
+            {
                 level = 0f;
             }
             readings[currentReadingIndex] = (int)level;
@@ -57,7 +63,6 @@ public class MicrophoneInput : MonoBehaviour
             }
             timeSinceLastReading = 0;
         }
-
 
     }
 

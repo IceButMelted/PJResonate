@@ -11,12 +11,13 @@ public class AlphaControl02 : MonoBehaviour
     public float fadeSpeedOut = 0.1f;
     public float fadeSpeedIn = 0.1f;
     public TilemapRenderer tileMat;
+    public PlayerMovement PM;
     private bool fadingIn = false;
     private bool fadingOut = false;
     private float[] getting;
 
     //delay value
-    private bool isDelaying = false;
+    private bool ISDELAYING = false;
     private float delayTimer = 0f;
     private const float DELAY_TIME = 5f;
     //private int mapping; 
@@ -34,54 +35,61 @@ public class AlphaControl02 : MonoBehaviour
     {
         getting = microphoneInput.readings;
 
-        if (Input.GetKeyUp(KeyCode.T))
+        /*if (Input.GetKeyUp(KeyCode.R))
         {
             Debug.Log("this is from ahlphaControl02 : " + string.Join(", ", getting));
             SortArray();
             Debug.Log("this is from ahlphaControl02 sort : " + string.Join(", ", getting));
             
-        }
+        }*/
 
-        if (isDelaying)
+        if (ISDELAYING)
         {
             delayTimer += Time.deltaTime;
             if (delayTimer >= DELAY_TIME)
             {
-                isDelaying = false;
+                ISDELAYING = false;
                 delayTimer = 0f;
             }
         }
 
-
-        if (Input.GetKeyDown(KeyCode.R) && !isDelaying)
+        if (Input.GetKeyDown(KeyCode.R) && !ISDELAYING)
         {
-            isDelaying = true;
-            
+            PM.enabled = false;
+        }
+
+        microphoneInput.getArrayfromMic();
+
+        if (Input.GetKeyUp(KeyCode.R) && !ISDELAYING)
+        {
+            ISDELAYING = true;
             fadingIn = true;
             fadingOut = false;
+            PM.enabled = true;
         }
 
-        StartFadeOut();
+
+        //if (getting[0] != 0)
+        //{
+            StartFadeOut();
+        //}
+
 
     }
 
-
-    private void SortArray()
+    private void StartFadeOut()
     {
-        int n = getting.Length;
-        for (int i = 0; i < n - 1; i++)
+        if (fadingIn)
         {
-            for (int j = 0; j < n - i - 1; j++)
-            {
-                if (getting[j] < getting[j + 1])
-                {
-                    float temp = getting[j];
-                    getting[j] = getting[j + 1];
-                    getting[j + 1] = temp;
-                }
-            }
+            FadeIn();
+        }
+
+        if (fadingOut)
+        {
+            FadeOut();
         }
     }
+
 
     private void FadeIn()
     {
@@ -93,7 +101,7 @@ public class AlphaControl02 : MonoBehaviour
             alpha = 1;
             fadingIn = false;
             fadingOut = true;
-            Invoke("StartFadeOut", 3f);
+            //Invoke("StartFadeOut", 3f);
         }
 
         tileMat.material.color = new Color(1f, 1f, 1f, alpha);
@@ -112,19 +120,22 @@ public class AlphaControl02 : MonoBehaviour
 
         tileMat.material.color = new Color(1f, 1f, 1f, alpha);
     }
-
-    private void StartFadeOut()
+    private void SortArray()
     {
-        if (fadingIn)
+        int n = getting.Length;
+        for (int i = 0; i < n - 1; i++)
         {
-            FadeIn();
-        }
-
-        if (fadingOut)
-        {
-            FadeOut();
+            for (int j = 0; j < n - i - 1; j++)
+            {
+                if (getting[j] < getting[j + 1])
+                {
+                    float temp = getting[j];
+                    getting[j] = getting[j + 1];
+                    getting[j + 1] = temp;
+                }
+            }
         }
     }
 
-    
+
 }
