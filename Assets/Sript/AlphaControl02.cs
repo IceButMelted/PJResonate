@@ -10,7 +10,7 @@ public class AlphaControl02 : MonoBehaviour
     [SerializeField] MicrophoneInput microphoneInput;
     public float fadeSpeedOut = 0.1f;
     public float fadeSpeedIn = 0.1f;
-    private TilemapRenderer tileMat;
+    public TilemapRenderer tileMat;
     private bool fadingIn = false;
     private bool fadingOut = false;
     private float[] getting;
@@ -23,7 +23,7 @@ public class AlphaControl02 : MonoBehaviour
 
     private void Start()
     {
-        tileMat = GetComponent<TilemapRenderer>();
+        //tileMat = GetComponent<TilemapRenderer>();
         tileMat.material.color = new Color(1f, 1f, 1f, 0f);
 
         //microphoneInput = GetComponent<MicrophoneInput>();
