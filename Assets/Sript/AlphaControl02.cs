@@ -39,6 +39,7 @@ public class AlphaControl02 : MonoBehaviour
             Debug.Log("this is from ahlphaControl02 : " + string.Join(", ", getting));
             SortArray();
             Debug.Log("this is from ahlphaControl02 sort : " + string.Join(", ", getting));
+            
         }
 
         if (isDelaying)
