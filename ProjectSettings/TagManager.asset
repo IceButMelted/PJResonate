@@ -3,15 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - nextScene
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -38,6 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Parallex
+    uniqueID: 3144090705
+    locked: 0
+  - name: PropsBack
+    uniqueID: 2842913785
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: MainTile
+    uniqueID: 3586401237
+    locked: 0
+  - name: Player
+    uniqueID: 3110212263
+    locked: 0
+  - name: PropFont
+    uniqueID: 2064033065
     locked: 0
