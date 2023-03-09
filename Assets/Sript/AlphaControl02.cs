@@ -25,7 +25,7 @@ public class AlphaControl02 : MonoBehaviour
     private float delayTimer = 0f;
     private const float DELAY_TIME = 5f;
 
-    //for fading
+
     public float fadeSpeedOut = 0.1f;
     public float fadeSpeedIn = 0.1f;
     private bool fadingIn = false;
@@ -81,15 +81,16 @@ public class AlphaControl02 : MonoBehaviour
             fadeSpeedOut = mappedValue;
         }
 
-        StartFadeOut();
-       
+        StartFadeOut(fadeSpeedOut);
+        
+
     }
 
 
 
 
     //function part
-    private void StartFadeOut()
+    private void StartFadeOut(float fadeSpeedOut)
     {
         if (fadingIn)
         {

@@ -7,7 +7,7 @@ public class MicrophoneInput : MonoBehaviour
 {
     public float sensitivity = 100;
     public float delay = 0.1f; // delay between level readings, in seconds
-    public int numReadings = 10; // number of readings to collect before sorting
+    public int numReadings = 50; // number of readings to collect before sorting
     private AudioSource audioSource;
     public float[] readings;
     public bool getValueformMic = false;
