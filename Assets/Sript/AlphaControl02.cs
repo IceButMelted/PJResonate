@@ -8,19 +8,28 @@ public class AlphaControl02 : MonoBehaviour
     // Start is called before the first frame update
 
     [SerializeField] MicrophoneInput microphoneInput;
-    public float fadeSpeedOut = 0.1f;
-    public float fadeSpeedIn = 0.1f;
+    
     public TilemapRenderer tileMat;
     public PlayerMovement PM;
-    private bool fadingIn = false;
-    private bool fadingOut = false;
-    private float[] getting;
+    
+
+    //map value
+    public int inputMin = 10;
+    public int inputMax = 40;
+    public float outputMin = 1.0f;
+    public float outputMax = 0.1f;
+    public int valueToMap;
 
     //delay value
     private bool ISDELAYING = false;
     private float delayTimer = 0f;
     private const float DELAY_TIME = 5f;
-    //private int mapping; 
+
+    //for fading
+    public float fadeSpeedOut = 0.1f;
+    public float fadeSpeedIn = 0.1f;
+    private bool fadingIn = false;
+    private bool fadingOut = false;
 
     private void Start()
     {
@@ -28,13 +37,11 @@ public class AlphaControl02 : MonoBehaviour
         tileMat.material.color = new Color(1f, 1f, 1f, 0f);
 
         //microphoneInput = GetComponent<MicrophoneInput>();
-        getting = new float[microphoneInput.numReadings]; 
+         
     }
 
     private void Update()
     {
-        getting = microphoneInput.readings;
-
         /*if (Input.GetKeyUp(KeyCode.R))
         {
             Debug.Log("this is from ahlphaControl02 : " + string.Join(", ", getting));
@@ -53,30 +60,35 @@ public class AlphaControl02 : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && !ISDELAYING)
+        if (Input.GetKeyDown(KeyCode.R) && !ISDELAYING && PM.IsGound())
         {
             PM.enabled = false;
         }
 
         microphoneInput.getArrayfromMic();
 
-        if (Input.GetKeyUp(KeyCode.R) && !ISDELAYING)
+        if (Input.GetKeyUp(KeyCode.R) && !ISDELAYING && PM.IsGound())
         {
             ISDELAYING = true;
             fadingIn = true;
             fadingOut = false;
             PM.enabled = true;
+            SortArray();
+            valueToMap = (int)microphoneInput.readings[0];
+            float mappedValue = MapValue(valueToMap, inputMin, inputMax, outputMin, outputMax);
+            Debug.Log("Output array of db " + string.Join(", ", microphoneInput.readings));
+            Debug.Log("Output value to map " + mappedValue);
+            fadeSpeedOut = mappedValue;
         }
 
-
-        //if (getting[0] != 0)
-        //{
-            StartFadeOut();
-        //}
-
-
+        StartFadeOut();
+       
     }
 
+
+
+
+    //function part
     private void StartFadeOut()
     {
         if (fadingIn)
@@ -86,7 +98,7 @@ public class AlphaControl02 : MonoBehaviour
 
         if (fadingOut)
         {
-            FadeOut();
+            FadeOut(fadeSpeedOut);
         }
     }
 
@@ -107,10 +119,10 @@ public class AlphaControl02 : MonoBehaviour
         tileMat.material.color = new Color(1f, 1f, 1f, alpha);
     }
 
-    private void FadeOut()
+    private void FadeOut(float timefading)
     {
         float alpha = tileMat.material.color.a;
-        alpha -= fadeSpeedOut * Time.deltaTime;
+        alpha -= timefading * Time.deltaTime;
 
         if (alpha < 0)
         {
@@ -122,20 +134,29 @@ public class AlphaControl02 : MonoBehaviour
     }
     private void SortArray()
     {
-        int n = getting.Length;
+        int n = microphoneInput.readings.Length;
         for (int i = 0; i < n - 1; i++)
         {
             for (int j = 0; j < n - i - 1; j++)
             {
-                if (getting[j] < getting[j + 1])
+                if (microphoneInput.readings[j] < microphoneInput.readings[j + 1])
                 {
-                    float temp = getting[j];
-                    getting[j] = getting[j + 1];
-                    getting[j + 1] = temp;
+                    float temp = microphoneInput.readings[j];
+                    microphoneInput.readings[j] = microphoneInput.readings[j + 1];
+                    microphoneInput.readings[j + 1] = temp;
                 }
             }
         }
     }
 
+    float MapValue(int value, int fromLow, int fromHigh, float toLow, float toHigh)
+    {
+        // Map the input value from the input range to the output range
+        float fromRange = fromHigh - fromLow;
+        float toRange = toHigh - toLow;
+        float scaledValue = (float)(value - fromLow) / fromRange;
+        float mappedValue = toLow + (scaledValue * toRange);
+        return mappedValue;
+    }
 
 }

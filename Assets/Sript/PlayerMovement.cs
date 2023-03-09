@@ -88,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetInteger("state", (int)state);
     }
 
-    private bool IsGound() {
+    public bool IsGound() {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 }

@@ -38,7 +38,7 @@ public class MicrophoneInput : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.R))
         {
             getValueformMic = false;
-            Debug.Log("Output " + string.Join(", ", readings));
+            //Debug.Log("Output " + string.Join(", ", readings));
         }
 
         //use on alphaControl02
