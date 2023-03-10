@@ -66,7 +66,7 @@ public class MicrophoneInput : MonoBehaviour
 
     }
 
-    float GetMicLevel()
+    public float GetMicLevel()
     {
         float[] waveData = new float[1024];
         int micPosition = Microphone.GetPosition(null) - (1024 + 1);

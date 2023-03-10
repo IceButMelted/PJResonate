@@ -67,6 +67,12 @@ public class AlphaControl02 : MonoBehaviour
 
         microphoneInput.getArrayfromMic();
 
+        /*if (microphoneInput.GetMicLevel() >= 0f) 
+        { 
+            
+        }
+        Debug.Log("what dB get : " + microphoneInput.GetMicLevel());*/
+
         if (Input.GetKeyUp(KeyCode.R) && !ISDELAYING && PM.IsGound())
         {
             ISDELAYING = true;
