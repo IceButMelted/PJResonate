@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class showLvValue : MonoBehaviour
 {
@@ -30,11 +32,12 @@ public class showLvValue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         txtdB.enabled = false;
         soundBar.SetActive(false);  
         dBBar.transform.localScale = new Vector3(1f, 0f, 1f);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        
     }
 
     // Update is called once per frame
@@ -89,11 +92,7 @@ public class showLvValue : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Escape) && UiCanSee == true)
         {
-            PM.enabled = true;
-            UiMenu.SetActive(false);
-            UiCanSee = false;
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+            ResumeGame();
         }
 
 
@@ -117,5 +116,19 @@ public class showLvValue : MonoBehaviour
         float scaledValue = (float)(value - fromLow) / fromRange;
         float mappedValue = toLow + (scaledValue * toRange);
         return mappedValue;
+    }
+
+    public void ResumeGame() 
+    {
+        PM.enabled = true;
+        UiMenu.SetActive(false);
+        UiCanSee = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    public void MainMenu(string mainMenu) 
+    {
+        SceneManager.LoadScene(mainMenu);   
     }
 }
