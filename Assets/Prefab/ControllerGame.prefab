@@ -1,5 +1,61 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &211627115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211627117}
+  - component: {fileID: 211627116}
+  m_Layer: 0
+  m_Name: UiControll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &211627117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211627115}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 66.411224, y: 34.974976, z: 5.5076838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1050718261159685705}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &211627116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211627115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7869377846756d488708899e75776c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaControl: {fileID: 1050718262730814136}
+  microphoneInput: {fileID: 1050718262722347755}
+  txtCoolDown: {fileID: 0}
+  soundBar: {fileID: 0}
+  txtdB: {fileID: 0}
+  dBBar: {fileID: 0}
+  CoolDown: 0
+  inputMin: 0
+  inputMax: 40
+  outputMin: 0
+  outputMax: 1
+  valueToMap: 0
 --- !u!1 &1050718261159685704
 GameObject:
   m_ObjectHideFlags: 0
@@ -23,7 +79,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050718261159685704}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.18349278, y: -16.890554, z: 0.07495284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -31,6 +87,7 @@ Transform:
   - {fileID: 1050718262722347754}
   - {fileID: 1050718262730814139}
   - {fileID: 1050718261487426494}
+  - {fileID: 211627117}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -83,7 +140,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 0000000029a5067ba71262b9d523c4d5f96b73a9510467bb
@@ -343,5 +400,8 @@ MonoBehaviour:
   outputMin: 1.5
   outputMax: 0.1
   valueToMap: 0
+  ISDELAYING: 0
+  delayTimer: 0
+  DELAY_TIME: 5
   fadeSpeedOut: 1
   fadeSpeedIn: 1

@@ -21,9 +21,9 @@ public class AlphaControl02 : MonoBehaviour
     public int valueToMap;
 
     //delay value
-    private bool ISDELAYING = false;
-    private float delayTimer = 0f;
-    private const float DELAY_TIME = 5f;
+    public bool ISDELAYING = false;
+    public float delayTimer = 0f;
+    public float DELAY_TIME = 5f;
 
 
     public float fadeSpeedOut = 0.1f;
@@ -64,9 +64,10 @@ public class AlphaControl02 : MonoBehaviour
         {
             PM.enabled = false;
         }
-
-        microphoneInput.getArrayfromMic();
-
+        if (!ISDELAYING)
+        {
+            microphoneInput.getArrayfromMic();
+        }
         /*if (microphoneInput.GetMicLevel() >= 0f) 
         { 
             
@@ -87,6 +88,10 @@ public class AlphaControl02 : MonoBehaviour
             fadeSpeedOut = mappedValue;
         }
 
+        /*if (microphoneInput.readings[0] != 0 ) 
+        {
+            StartFadeOut(fadeSpeedOut);
+        }*/
         StartFadeOut(fadeSpeedOut);
         
 
