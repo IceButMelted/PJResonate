@@ -64,10 +64,6 @@ public class AlphaControl02 : MonoBehaviour
         {
             PM.enabled = false;
         }
-        if (!ISDELAYING)
-        {
-            microphoneInput.getArrayfromMic();
-        }
         /*if (microphoneInput.GetMicLevel() >= 0f) 
         { 
             
@@ -80,10 +76,9 @@ public class AlphaControl02 : MonoBehaviour
             fadingIn = true;
             fadingOut = false;
             PM.enabled = true;
-            SortArray();
-            valueToMap = (int)microphoneInput.readings[0];
+            valueToMap = (int)microphoneInput.GetMicLevel();
             float mappedValue = MapValue(valueToMap, inputMin, inputMax, outputMin, outputMax);
-            Debug.Log("Output array of db " + string.Join(", ", microphoneInput.readings));
+            Debug.Log("Output db " + valueToMap);
             Debug.Log("Output value to map " + mappedValue);
             fadeSpeedOut = mappedValue;
         }
@@ -143,22 +138,6 @@ public class AlphaControl02 : MonoBehaviour
         }
 
         tileMat.material.color = new Color(1f, 1f, 1f, alpha);
-    }
-    private void SortArray()
-    {
-        int n = microphoneInput.readings.Length;
-        for (int i = 0; i < n - 1; i++)
-        {
-            for (int j = 0; j < n - i - 1; j++)
-            {
-                if (microphoneInput.readings[j] < microphoneInput.readings[j + 1])
-                {
-                    float temp = microphoneInput.readings[j];
-                    microphoneInput.readings[j] = microphoneInput.readings[j + 1];
-                    microphoneInput.readings[j + 1] = temp;
-                }
-            }
-        }
     }
 
     float MapValue(int value, int fromLow, int fromHigh, float toLow, float toHigh)

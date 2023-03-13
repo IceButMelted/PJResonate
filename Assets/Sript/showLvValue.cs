@@ -64,7 +64,7 @@ public class showLvValue : MonoBehaviour
             txtdB.enabled = true;
             soundBar.SetActive(true);
         }
-        if (Input.GetKeyUp(KeyCode.R) && !alphaControl.ISDELAYING)
+        if (Input.GetKeyUp(KeyCode.R) && alphaControl.ISDELAYING)
         {
             reading = false;
             txtdB.enabled = false;
