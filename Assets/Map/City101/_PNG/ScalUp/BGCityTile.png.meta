@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -68,8 +68,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -14371,8 +14371,8 @@ TextureImporter:
       BGCityTile_537: 219202527
       BGCityTile_409: 1961070411
       BGCityTile_685: -1577037710
-      BGCityTile_596: -844836733
       BGCityTile_402: -509934232
+      BGCityTile_596: -844836733
       BGCityTile_486: 1957044538
       BGCityTile_193: -874131409
       BGCityTile_225: -1528227099
@@ -14441,8 +14441,8 @@ TextureImporter:
       BGCityTile_802: 1312118525
       BGCityTile_479: 675945593
       BGCityTile_734: -1599359426
-      BGCityTile_807: 1535798876
       BGCityTile_51: 611645124
+      BGCityTile_807: 1535798876
       BGCityTile_795: 280076138
       BGCityTile_933: 233488573
       BGCityTile_922: 645497026
@@ -14811,10 +14811,10 @@ TextureImporter:
       BGCityTile_200: 2045630720
       BGCityTile_328: -1121234656
       BGCityTile_556: 1868679689
-      BGCityTile_690: 1336846721
+      BGCityTile_444: -1176086969
       BGCityTile_838: -1181742226
       BGCityTile_754: -1696996605
-      BGCityTile_444: -1176086969
+      BGCityTile_690: 1336846721
       BGCityTile_948: -1102659628
       BGCityTile_956: 1237391677
       BGCityTile_65: 10208090

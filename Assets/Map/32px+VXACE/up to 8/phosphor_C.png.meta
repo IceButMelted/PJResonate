@@ -127,7 +127,1918 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: phosphor_C_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3096
+        width: 1472
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598c8df95048b634c86e3b476a5d6ae7
+      internalID: 430878542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_1
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 3648
+        width: 269
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d945bc02057021940970872ac3051944
+      internalID: -538976259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_2
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 3642
+        width: 262
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e711cbd37bc0647ba80d057f1153d6
+      internalID: -2045550414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_3
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 3864
+        width: 176
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e761bb9240cbbc647976ca993d121c8a
+      internalID: 2124633562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_4
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 3640
+        width: 439
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b0ef12ce558da4895d21ddf1f0a3f4
+      internalID: -1348985881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_5
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 3704
+        width: 250
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d4bf4430468c14188397672cc86fdc
+      internalID: -1811151703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_6
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 3928
+        width: 128
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20937d7c9c50994e8509d62f1121fe4
+      internalID: -277393463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_7
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 3807
+        width: 206
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf2f4e03bbd61945b2c57edb60c1fb9
+      internalID: -35580326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_8
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3656
+        width: 505
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bef75954b30ad4b91b00ca33dc1ed6
+      internalID: 1312232829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_9
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 3648
+        width: 168
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e55057122fa1f541a2c020e4ac3a4ee
+      internalID: 357039262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_10
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 3710
+        width: 121
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1601acd25dc90094eac854f858ae1035
+      internalID: -602501381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_11
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 3326
+        width: 262
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b354bf5ece354428db14ee7639abf5
+      internalID: 1656003026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_12
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 3326
+        width: 238
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29ff8d3a2b9aea4eb5c803d1c36ba5f
+      internalID: 1789502158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_13
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 3346
+        width: 218
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51324f879114d4d43a660d55b5d3b589
+      internalID: -1331372268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_14
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 3440
+        width: 137
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0dbeaca1b7f9342ba1556f37051608
+      internalID: 27156118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_15
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 3384
+        width: 193
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcb1fff9b5db42449f57953c1b98363
+      internalID: 768190275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_16
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 3439
+        width: 152
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b65cdf7b0ddd443976c95377ee8ba8
+      internalID: -374151413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_17
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 3368
+        width: 178
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6ed581c249e004e894907c8321aba0
+      internalID: 1934352128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_18
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 3342
+        width: 172
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137e5d2105e2bd74984ef45307612c30
+      internalID: 1491521456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_19
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 3464
+        width: 106
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc540ef4de3543458cc4b3e654d2692
+      internalID: 1679716632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_20
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 3360
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bee4386f71c5d40b1b469b4afb1cd7
+      internalID: 1460186978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_21
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 3342
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc865bb43d590f4bbc817316bdcb63e
+      internalID: 469349974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_22
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 3078
+        width: 193
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6293fbb456ff090478f3cb7ee0e68ade
+      internalID: 1297259110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_23
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3080
+        width: 248
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab58bc157fa394f43a91c92dbea91640
+      internalID: 988698769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_24
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 3198
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327b20f29f57f0e47bdcf026918a785c
+      internalID: 2017598788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_25
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 3080
+        width: 258
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc6b9f2b8402bf4ba25107c71b2c563
+      internalID: -1573890343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_26
+      rect:
+        serializedVersion: 2
+        x: 3629
+        y: 3080
+        width: 421
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddf889565f5cf4439153c34de054123
+      internalID: 1273486595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2103
+        width: 515
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad09912ab500954c81927cfa632b1c8
+      internalID: -1696945744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_28
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2320
+        width: 1030
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8db629828959d24596a7cc814a78690
+      internalID: 1590271181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_29
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 2834
+        width: 251
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49370314b69157a4a89ab9f3930799ef
+      internalID: -1409482324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_30
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2848
+        width: 229
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ec46d1476eb7a4a9f6f7b0da493891
+      internalID: -591037707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_31
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 2848
+        width: 245
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c98eb48242f78349bbcf278637c60a6
+      internalID: -2079917456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_32
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 2850
+        width: 252
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aa3c0cbf9502a4b9d9a9db45d69165
+      internalID: -1447855325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_33
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 2856
+        width: 252
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b35fa2010b87d4fb77284c69bd9e01
+      internalID: 336103747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_34
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 2848
+        width: 241
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcc642a38cae3c45a3db0f24db223ee
+      internalID: -442991341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_35
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 2848
+        width: 211
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed6eeb50705c5f4480677260d93db90
+      internalID: 1914543867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_36
+      rect:
+        serializedVersion: 2
+        x: 3863
+        y: 2855
+        width: 233
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3027ba535d9ab7f45b9e66d182c6f658
+      internalID: 677065435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_37
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 2573
+        width: 211
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55ac36ca1e783e479e45710f605cbc1
+      internalID: 1528732209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_38
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2573
+        width: 211
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea249cef07781544924b219db4f7b42
+      internalID: -1261591603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_39
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 2574
+        width: 478
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fbc0245060d2e409c6358cb104067f
+      internalID: 1550869371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_40
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 2376
+        width: 1025
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47af1204b2819334b9ac03b49bf45b29
+      internalID: 1343697921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_41
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 2378
+        width: 514
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dd0007854f73d438e1793cc3877134
+      internalID: -210935015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_42
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 2317
+        width: 262
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fe98e17305ac346ab6031db740ae5d
+      internalID: 693128400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_43
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 2312
+        width: 363
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f723fa2e6aaa6f74ba6641885a1850de
+      internalID: 1099004823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_44
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1368
+        width: 747
+        height: 923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231ea807827dabe4cb8ed332534bea0c
+      internalID: 1036713979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_45
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 2087
+        width: 480
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4687b1073fc09bb40adc4d29961acabf
+      internalID: 1573950774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_46
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 2056
+        width: 229
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c440bde468da3c4d85a924106dfebdf
+      internalID: 783729986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_47
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 2058
+        width: 259
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9098b708571364c9df56fe2788ceb7
+      internalID: -537188750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_48
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1338
+        width: 470
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dec59f40cb949e49b1e7df62358c58f
+      internalID: 222933421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_49
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1322
+        width: 265
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc73d65b45d54441afc2838ce5f3a2d
+      internalID: -733389224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_50
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 1354
+        width: 469
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c3b2c9de9c0f0409b4eacb9aa8ecab
+      internalID: -1118201019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_51
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 1816
+        width: 260
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4482d028a2cab4d9e56ebb8f678e9c
+      internalID: -1139226626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_52
+      rect:
+        serializedVersion: 2
+        x: 3866
+        y: 1800
+        width: 215
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b1dd2b4e092a04a8becc941f42fa9f
+      internalID: -1942084278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_53
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1320
+        width: 280
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bde6b5a833b2e4ca9c95c4741f5b9b
+      internalID: -517817625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_54
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1326
+        width: 518
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe448356f5c60e74d8f55470ec46c0ad
+      internalID: 1369287427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_55
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 1424
+        width: 222
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea000daa24f171478ef070d4cf2c029
+      internalID: 619409575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_56
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 1560
+        width: 440
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2206d8e0d5a421b4eb971a49fc63abca
+      internalID: 698395022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 995
+        height: 1403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7404b8f2072cc4eae708af7f955646
+      internalID: 1201253323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_58
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1288
+        width: 260
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c559a267f631f143afca5c00e81a618
+      internalID: 1504926594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_59
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 1326
+        width: 251
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33722ac2f3a9e9c47ad2bffd8dae5c34
+      internalID: -2096595781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_60
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 1322
+        width: 247
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69444a359b342af42a69b5b4475591de
+      internalID: 1056276721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_61
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 120
+        width: 774
+        height: 1152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789483f8c48c30b40a06ce449ad38a4b
+      internalID: -2003694682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_62
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 824
+        width: 489
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa183c8ed9ee74a8bf01a32367a3a0
+      internalID: -1891832547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_63
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 864
+        width: 200
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449b68c8f262d1946b74ce6c153ad617
+      internalID: 655479620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_64
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 872
+        width: 190
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdb69ffaf6f17c439cfa2001477f9f9
+      internalID: 1213606311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_65
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 1026
+        width: 234
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853dc83b75a4974da135a353df0000d
+      internalID: -873974067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_66
+      rect:
+        serializedVersion: 2
+        x: 3335
+        y: 1032
+        width: 241
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548b76d91c8c5c9478c0720138a025f9
+      internalID: -1830872936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_67
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 1074
+        width: 510
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9890185b591e3df409f8d76d81c63264
+      internalID: -1511908312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_68
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 104
+        width: 501
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1492e5e507e0d414fb6ef4fb915f1735
+      internalID: 1165372023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_69
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 600
+        width: 291
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cdbac1c0f50d34b824d4cb6d0e734a
+      internalID: 116194367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_70
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 792
+        width: 505
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ceac603b523d43a18fd8caf124896
+      internalID: -607809118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_71
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 550
+        width: 243
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b68e440af54f2439cd2a7fc71cd9f3
+      internalID: 1683963723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_72
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 607
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdd16e0f9cabc4449dbf0f847cb287a
+      internalID: 820598007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_73
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 552
+        width: 216
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0f4e86e355f12458b702015fd227b9
+      internalID: 1221619061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_74
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 543
+        width: 490
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c16eca9fd7cfd428c3ba784a5ad088
+      internalID: -853898012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_75
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 104
+        width: 242
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e319e137a4f94f88bf526240f13a3
+      internalID: -867491682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_76
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 357
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112bcd76fb98bae47a68d39c6e809c87
+      internalID: 583568223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_77
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 303
+        width: 169
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff6ff41ce295a645b17ba45d4f89d4b
+      internalID: 1293019407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_78
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 294
+        width: 176
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e92c74d71d24084ba98d1a7b5a5142e
+      internalID: -430876188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_79
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 302
+        width: 242
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4049a385fa2fadc4c98d7fe7a42fe403
+      internalID: 49564717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_80
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 304
+        width: 236
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac3941575253994fb1d4c9a6d95b878
+      internalID: -1543840589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_81
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 112
+        width: 344
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac6e49fedf5173478a0486da4e20cf6
+      internalID: -1659564505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_82
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 266
+        width: 137
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745661e0b83dcf94e89aa62ffeb05485
+      internalID: -2002871895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_83
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 301
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56e03628ca8a174a9970d4c5e9e7871
+      internalID: -103950748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_84
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 280
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4fda95ed93d8f4cb56c9615db21f01
+      internalID: 1361576507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_85
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 288
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643487b4000eb754392a6629aba27c28
+      internalID: 43726427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_86
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 24
+        width: 225
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39c14ccdf58178449244c4a5b04cc1d
+      internalID: 765589792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_87
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 32
+        width: 228
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e70a20d93442fe4c98659aec0e5d452
+      internalID: -69257529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_88
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 32
+        width: 235
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e173f2ec1385c4cb7fb46e057205e2
+      internalID: 167120008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_89
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 40
+        width: 163
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99050e03d9da83545bacf9d389872672
+      internalID: -1720089615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phosphor_C_90
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 40
+        width: 151
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a899e52460eee4a904613dfd08fff0
+      internalID: -688585941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +2049,98 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      phosphor_C_58: 1504926594
+      phosphor_C_73: 1221619061
+      phosphor_C_68: 1165372023
+      phosphor_C_81: -1659564505
+      phosphor_C_71: 1683963723
+      phosphor_C_12: 1789502158
+      phosphor_C_23: 988698769
+      phosphor_C_80: -1543840589
+      phosphor_C_84: 1361576507
+      phosphor_C_85: 43726427
+      phosphor_C_30: -591037707
+      phosphor_C_6: -277393463
+      phosphor_C_14: 27156118
+      phosphor_C_43: 1099004823
+      phosphor_C_78: -430876188
+      phosphor_C_83: -103950748
+      phosphor_C_57: 1201253323
+      phosphor_C_60: 1056276721
+      phosphor_C_75: -867491682
+      phosphor_C_41: -210935015
+      phosphor_C_76: 583568223
+      phosphor_C_25: -1573890343
+      phosphor_C_66: -1830872936
+      phosphor_C_20: 1460186978
+      phosphor_C_11: 1656003026
+      phosphor_C_70: -607809118
+      phosphor_C_89: -1720089615
+      phosphor_C_86: 765589792
+      phosphor_C_88: 167120008
+      phosphor_C_2: -2045550414
+      phosphor_C_34: -442991341
+      phosphor_C_3: 2124633562
+      phosphor_C_53: -517817625
+      phosphor_C_15: 768190275
+      phosphor_C_32: -1447855325
+      phosphor_C_36: 677065435
+      phosphor_C_50: -1118201019
+      phosphor_C_55: 619409575
+      phosphor_C_72: 820598007
+      phosphor_C_77: 1293019407
+      phosphor_C_46: 783729986
+      phosphor_C_90: -688585941
+      phosphor_C_52: -1942084278
+      phosphor_C_27: -1696945744
+      phosphor_C_59: -2096595781
+      phosphor_C_56: 698395022
+      phosphor_C_62: -1891832547
+      phosphor_C_24: 2017598788
+      phosphor_C_67: -1511908312
+      phosphor_C_87: -69257529
+      phosphor_C_19: 1679716632
+      phosphor_C_74: -853898012
+      phosphor_C_65: -873974067
+      phosphor_C_79: 49564717
+      phosphor_C_82: -2002871895
+      phosphor_C_5: -1811151703
+      phosphor_C_18: 1491521456
+      phosphor_C_33: 336103747
+      phosphor_C_40: 1343697921
+      phosphor_C_0: 430878542
+      phosphor_C_29: -1409482324
+      phosphor_C_39: 1550869371
+      phosphor_C_64: 1213606311
+      phosphor_C_21: 469349974
+      phosphor_C_26: 1273486595
+      phosphor_C_37: 1528732209
+      phosphor_C_54: 1369287427
+      phosphor_C_44: 1036713979
+      phosphor_C_45: 1573950774
+      phosphor_C_69: 116194367
+      phosphor_C_10: -602501381
+      phosphor_C_13: -1331372268
+      phosphor_C_51: -1139226626
+      phosphor_C_38: -1261591603
+      phosphor_C_17: 1934352128
+      phosphor_C_4: -1348985881
+      phosphor_C_8: 1312232829
+      phosphor_C_22: 1297259110
+      phosphor_C_28: 1590271181
+      phosphor_C_1: -538976259
+      phosphor_C_47: -537188750
+      phosphor_C_7: -35580326
+      phosphor_C_16: -374151413
+      phosphor_C_49: -733389224
+      phosphor_C_35: 1914543867
+      phosphor_C_42: 693128400
+      phosphor_C_48: 222933421
+      phosphor_C_31: -2079917456
+      phosphor_C_63: 655479620
+      phosphor_C_61: -2003694682
+      phosphor_C_9: 357039262
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -68,7 +68,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
@@ -10240,7 +10240,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SubMainCity_100: -444067921
+      SubMainCity_145: -1715596301
       SubMainCity_378: -47977822
       SubMainCity_594: -1892893796
       SubMainCity_518: -892932963
@@ -10977,7 +10977,7 @@ TextureImporter:
       SubMainCity_186: -145354780
       SubMainCity_39: -890420832
       SubMainCity_684: -2074375305
-      SubMainCity_145: -1715596301
+      SubMainCity_100: -444067921
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
