@@ -7,12 +7,12 @@ public class MicrophoneInput : MonoBehaviour
 {
     public float sensitivity = 100;
     public float delay = 0.1f; // delay between level readings, in seconds
-    public int numReadings = 50; // number of readings to collect before sorting
+    //public int numReadings = 50; // number of readings to collect before sorting
     private AudioSource audioSource;
-    public float[] readings;
+    public float readings;
     public bool getValueformMic = false;
-    private int currentReadingIndex = 0;
-    private float timeSinceLastReading = 0;
+    //private int currentReadingIndex = 0;
+    //private float timeSinceLastReading = 0;
 
     void Start()
     {
@@ -21,7 +21,7 @@ public class MicrophoneInput : MonoBehaviour
         audioSource.loop = true;
         while (!(Microphone.GetPosition(null) > 0)) { }
         //audioSource.Play();
-        readings = new float[numReadings];
+        
     }
 
     void Update()
@@ -29,11 +29,7 @@ public class MicrophoneInput : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             getValueformMic = true;
-            for (int i = 0; i < numReadings; ++i) 
-            {
-                readings[i] = 0;
-            }
-            currentReadingIndex = 0;
+            //currentReadingIndex = 0;
         }
         if (Input.GetKeyUp(KeyCode.R))
         {
@@ -45,28 +41,21 @@ public class MicrophoneInput : MonoBehaviour
         //getArrayfromMic();
 
     }
-    public void  getArrayfromMic() {
+    /*public void  getArrayfromMic() {
         timeSinceLastReading += Time.deltaTime;
         if (timeSinceLastReading >= delay && getValueformMic == true)
         {
-            float level = GetMicLevel();
-            if (level < 0f)
+            readings = GetMicLevel();
+            if (readings < 0f)
             {
-                level = 0f;
-            }
-            readings[currentReadingIndex] = (int)level;
-            currentReadingIndex++;
-            if (currentReadingIndex >= numReadings)
-            {
-                //Debug.Log("Output " + string.Join(", ", readings));
-                currentReadingIndex = 0;
+                readings = 0f;
             }
             timeSinceLastReading = 0;
         }
 
-    }
+    }*/
 
-    float GetMicLevel()
+    public float GetMicLevel()
     {
         float[] waveData = new float[1024];
         int micPosition = Microphone.GetPosition(null) - (1024 + 1);
