@@ -12,6 +12,8 @@ public class AlphaControl02 : MonoBehaviour
     public TilemapRenderer tileMat;
     public PlayerMovement PM;
     
+    public bool canUseAll = true;
+
 
     //map value
     public int inputMin = 10;
@@ -50,44 +52,49 @@ public class AlphaControl02 : MonoBehaviour
             
         }*/
 
-        if (ISDELAYING)
+        if (canUseAll == true)
         {
-            delayTimer += Time.deltaTime;
-            if (delayTimer >= DELAY_TIME)
+
+            if (ISDELAYING)
             {
-                ISDELAYING = false;
-                delayTimer = 0f;
+                delayTimer += Time.deltaTime;
+                if (delayTimer >= DELAY_TIME)
+                {
+                    ISDELAYING = false;
+                    delayTimer = 0f;
+                }
             }
-        }
 
-        if (Input.GetKeyDown(KeyCode.R) && !ISDELAYING && PM.IsGound())
-        {
-            PM.enabled = false;
-        }
-        /*if (microphoneInput.GetMicLevel() >= 0f) 
-        { 
-            
-        }
-        Debug.Log("what dB get : " + microphoneInput.GetMicLevel());*/
+            if (Input.GetKeyDown(KeyCode.R) && !ISDELAYING && PM.IsGound())
+            {
+                PM.enabled = false;
+            }
+            /*if (microphoneInput.GetMicLevel() >= 0f) 
+            { 
 
-        if (Input.GetKeyUp(KeyCode.R) && !ISDELAYING && PM.IsGound())
-        {
-            ISDELAYING = true;
-            fadingIn = true;
-            fadingOut = false;
-            PM.enabled = true;
-            valueToMap = (int)microphoneInput.GetMicLevel();
-            float mappedValue = MapValue(valueToMap, inputMin, inputMax, outputMin, outputMax);
-            Debug.Log("Output db " + valueToMap);
-            Debug.Log("Output value to map " + mappedValue);
-            fadeSpeedOut = mappedValue;
-        }
+            }
+            Debug.Log("what dB get : " + microphoneInput.GetMicLevel());*/
 
-        /*if (microphoneInput.readings[0] != 0 ) 
-        {
+            if (Input.GetKeyUp(KeyCode.R) && !ISDELAYING && PM.IsGound())
+            {
+                ISDELAYING = true;
+                fadingIn = true;
+                fadingOut = false;
+                PM.enabled = true;
+                valueToMap = (int)microphoneInput.GetMicLevel();
+                float mappedValue = MapValue(valueToMap, inputMin, inputMax, outputMin, outputMax);
+                Debug.Log("Output db " + valueToMap);
+                Debug.Log("Output value to map " + mappedValue);
+                fadeSpeedOut = mappedValue;
+            }
+
+            /*if (microphoneInput.readings[0] != 0 ) 
+            {
+                StartFadeOut(fadeSpeedOut);
+            }*/
             StartFadeOut(fadeSpeedOut);
-        }*/
-        StartFadeOut(fadeSpeedOut);
+
+        }
         
 
     }

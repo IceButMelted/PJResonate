@@ -17,6 +17,7 @@ public class DialogueTrigger : MonoBehaviour {
         //Debug.Log("open");
     }
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     { 
         if (collision.CompareTag("Player") && IsTriggered == false) 
@@ -26,6 +27,7 @@ public class DialogueTrigger : MonoBehaviour {
             PM.enabled = false;
             TriggerDialogue();
             IsTriggered = true;
+            
         }
     }
 

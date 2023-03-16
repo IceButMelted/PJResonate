@@ -43,46 +43,51 @@ public class showLvValue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
 
-        float timeer = alphaControl.DELAY_TIME - alphaControl.delayTimer;
-        if (timeer == 5)
+        if (alphaControl.canUseAll == true)
         {
-            txtCoolDown.text = "Ready";
-            if (reading) txtCoolDown.text = "Using";
-        }
-        else 
-        {
-            CoolDown = Mathf.Round(timeer * 100f) / 100f;
-            txtCoolDown.text = "CoolDown\n"+ CoolDown+"";
-        }
+            float timeer = alphaControl.DELAY_TIME - alphaControl.delayTimer;
+            if (timeer == 5)
+            {
+                txtCoolDown.text = "Ready";
+                if (reading) txtCoolDown.text = "Using";
+            }
+            else
+            {
+                CoolDown = Mathf.Round(timeer * 100f) / 100f;
+                txtCoolDown.text = "CoolDown\n" + CoolDown + "";
+            }
 
 
-        if (Input.GetKeyDown(KeyCode.R) && !alphaControl.ISDELAYING) 
-        {
-            reading = true;
-            txtdB.enabled = true;
-            soundBar.SetActive(true);
-        }
-        if (Input.GetKeyUp(KeyCode.R) && alphaControl.ISDELAYING)
-        {
-            reading = false;
-            txtdB.enabled = false;
-            soundBar.SetActive(false);
+            if (Input.GetKeyDown(KeyCode.R) && !alphaControl.ISDELAYING)
+            {
+                reading = true;
+                txtdB.enabled = true;
+                soundBar.SetActive(true);
+            }
+            if (Input.GetKeyUp(KeyCode.R))
+            {
+                reading = false;
+                txtdB.enabled = false;
+                soundBar.SetActive(false);
+            }
+
+            if (reading)
+            {
+                valueToMap = Mathf.RoundToInt(microphoneInput.GetMicLevel());
+                float mappedValue = MapValue(valueToMap, inputMin, inputMax, outputMin, outputMax);
+                if (mappedValue <= 0) mappedValue = 0;
+                swapColor();
+                dBBar.transform.localScale = new Vector3(1f, mappedValue, 1f);
+                if (valueToMap <= 0) txtdB.text = "0";
+                else txtdB.text = "" + valueToMap;
+            }
+
+            
+
         }
 
-        if (reading)
-        {
-            valueToMap = Mathf.RoundToInt(microphoneInput.GetMicLevel());
-            float mappedValue = MapValue(valueToMap, inputMin, inputMax, outputMin, outputMax);
-            if(mappedValue <= 0) mappedValue = 0;
-            swapColor();
-            dBBar.transform.localScale = new Vector3(1f,mappedValue,1f);
-            if (valueToMap <= 0) txtdB.text = "0";
-            else txtdB.text = "" + valueToMap;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Escape) && UiCanSee == false) 
+        if (Input.GetKeyDown(KeyCode.Escape) && UiCanSee == false)
         {
             PM.enabled = false;
             UiMenu.SetActive(true);
@@ -94,8 +99,6 @@ public class showLvValue : MonoBehaviour
         {
             ResumeGame();
         }
-
-
 
     }
 
