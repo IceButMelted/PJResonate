@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 256
@@ -124,8 +124,8 @@ TextureImporter:
         y: 1406
         width: 798
         height: 587
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49853545, y: 0.0062744557}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: waist
       rect:
         serializedVersion: 2
-        x: 1009
-        y: 1538
+        x: 1007
+        y: 1540
         width: 302
         height: 365
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5089867, y: 0.67845076}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: body
       rect:
         serializedVersion: 2
-        x: 7
+        x: 8
         y: 900
         width: 470
         height: 381
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5102858, y: 0.3277979}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,7 +204,7 @@ TextureImporter:
       name: upperArmRight
       rect:
         serializedVersion: 2
-        x: 920
+        x: 919
         y: 1023
         width: 222
         height: 226

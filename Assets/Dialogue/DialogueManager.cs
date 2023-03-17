@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour {
     
     public TextMeshProUGUI dialogueText;
     public GameObject UiWhileGame;
+    public bool ShowUi;
     public GameObject DialogueOBJ;
 
 
@@ -61,7 +62,7 @@ public class DialogueManager : MonoBehaviour {
      public void EndDialogue() 
     {
         DialogueOBJ.SetActive(false);
-        UiWhileGame.SetActive(true);
+        if(ShowUi) UiWhileGame.SetActive(true);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         FindObjectOfType<PlayerMovement>().enabled = true;

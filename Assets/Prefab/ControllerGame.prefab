@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 0000000029a5067ba71262b9d523c4d5f96b73a9510467bb
+  m_ApplyToSortingLayers: 510467bbf96b73a900000000d523c4d529a5067b
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -251,8 +251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensitivity: 100
   delay: 0.1
-  numReadings: 50
-  readings: []
+  readings: 0
   getValueformMic: 0
 --- !u!82 &1050718262722347752
 AudioSource:
@@ -366,7 +365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1050718262730814139
 Transform:
   m_ObjectHideFlags: 0
@@ -397,6 +396,7 @@ MonoBehaviour:
   microphoneInput: {fileID: 1050718262722347755}
   tileMat: {fileID: 0}
   PM: {fileID: 0}
+  canUseAll: 0
   inputMin: 0
   inputMax: 40
   outputMin: 1.5

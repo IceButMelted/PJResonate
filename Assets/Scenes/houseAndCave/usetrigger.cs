@@ -7,8 +7,6 @@ public class usetrigger : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField]private DialogueTrigger DT;
     public void GoGo() {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
         DT.TriggerDialogue();
     }
 }

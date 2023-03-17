@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 public class Loadnext_easy_ver : MonoBehaviour
 {
     public Animator transiton;
+    public string nameScene;
 
-    public void LoadNextLevel(string sceneName)
+    public void LoadNextLevel()
     {
-        StartCoroutine(Transition(sceneName));
+        StartCoroutine(Transition(nameScene));
     }
 
     IEnumerator Transition(string sceneName) 

@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 2be6560f56d80414fab74a3de7881182
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sine_F_head
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1406
+        width: 798
+        height: 587
+      alignment: 9
+      pivot: {x: 0.49853545, y: 0.0062744557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1da342298d72ab4db186d24ca8bbf3d
+      internalID: -1121750506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_waist
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1540
+        width: 302
+        height: 365
+      alignment: 9
+      pivot: {x: 0.5089867, y: 0.67845076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49bf98f3be08d64b9153aceb71f1273
+      internalID: 356964240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_body
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 900
+        width: 470
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5102858, y: 0.3277979}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c325ab6423a9ad5439b3a7f727ce6043
+      internalID: 1275199171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_upperArmLeft
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1028
+        width: 221
+        height: 226
+      alignment: 9
+      pivot: {x: 0.7722342, y: 0.79283315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b898d68a13700294d93e5034c8ab6a6a
+      internalID: -653769741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_upperArmRight
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1023
+        width: 222
+        height: 226
+      alignment: 9
+      pivot: {x: 0.23216179, y: 0.78577846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13797dac68c2127438c4ec61049788ca
+      internalID: -1218858932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_upperLegLeft
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 978
+        width: 175
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5816978, y: 0.7574373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a656f7744a4107e43b24a7fa78d38818
+      internalID: -2067811682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_upperLegRight
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 988
+        width: 176
+        height: 311
+      alignment: 9
+      pivot: {x: 0.4220172, y: 0.75559837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb6b0cdbd510244d839667d93b128c5
+      internalID: 915163366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_lowerArmLeft
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 699
+        width: 240
+        height: 237
+      alignment: 9
+      pivot: {x: 0.7500913, y: 0.73742807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6541d603a49873542a74d4a5a8fbdf22
+      internalID: 1119012580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_lowerArmRight
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 698
+        width: 239
+        height: 238
+      alignment: 9
+      pivot: {x: 0.25979167, y: 0.73691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e9f1158a467ba468fd008c4131987c
+      internalID: -1264316633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_lowerLegLeft
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 545
+        width: 199
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5937506, y: 0.75307316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8a8a49f3625e7438297f3c8f67422d
+      internalID: 1278487411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_lowerLegRight
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 549
+        width: 199
+        height: 338
+      alignment: 9
+      pivot: {x: 0.4129473, y: 0.75823814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e739f546b817a8846992b76e219b1a41
+      internalID: 869818881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_handLeft
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 362
+        width: 240
+        height: 233
+      alignment: 9
+      pivot: {x: 0.70451075, y: 0.7026844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05a3bc99285cfb4bb58e63cb8a9f510
+      internalID: -223811197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_handRIght
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 354
+        width: 239
+        height: 234
+      alignment: 9
+      pivot: {x: 0.30830032, y: 0.7069848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb32638b7ae2c9e489731d9446da4e0c
+      internalID: 1305421060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_footLeft
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 133
+        width: 266
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5873253, y: 0.6767299}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675028cecee8b6847b0d1796cebbd8f9
+      internalID: 1675647957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sine_F_footRight
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 130
+        width: 265
+        height: 292
+      alignment: 9
+      pivot: {x: 0.41003832, y: 0.6758471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1375a259d45a97b4fa19b947d7e568a8
+      internalID: 930705198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      base_echo_straight_300_40: 105156087
+      base_echo_straight_300_56: 1128212393
+      base_echo_straight_300_49: 1669781323
+      base_echo_straight_300_38: 127936451
+      base_echo_straight_300_24: 1571828798
+      Sine_F_upperLegRight: 915163366
+      base_echo_straight_300_12: -632082414
+      base_echo_straight_300_42: 34150077
+      Sine_F_lowerArmRight: -1264316633
+      base_echo_straight_300_5: 926242035
+      base_echo_straight_300_16: 1785956251
+      base_echo_straight_300_37: 1846123602
+      base_echo_straight_300_41: -776477707
+      base_echo_straight_300_57: -28447721
+      base_echo_straight_300_10: -2113784263
+      base_echo_straight_300_43: -195822491
+      Sine_F_body: 1275199171
+      base_echo_straight_300_68: -903789280
+      Sine_F_footLeft: 1675647957
+      base_echo_straight_300_35: -1405255058
+      base_echo_straight_300_8: 193760629
+      base_echo_straight_300_22: -755669750
+      base_echo_straight_300_48: 807189475
+      base_echo_straight_300_44: -1846706132
+      base_echo_straight_300_17: 1557361695
+      base_echo_straight_300_46: 1456698838
+      base_echo_straight_300_70: 1244041253
+      base_echo_straight_300_21: -1302633995
+      Sine_F_lowerArmLeft: 1119012580
+      Sine_F_upperArmRight: -1218858932
+      base_echo_straight_300_14: -1478933146
+      base_echo_straight_300_18: 103365564
+      Sine_F_handLeft: -223811197
+      base_echo_straight_300_69: -1410848014
+      base_echo_straight_300_65: 1560173170
+      Sine_F_footRight: 930705198
+      base_echo_straight_300_2: 1305969185
+      base_echo_straight_300_7: -533578501
+      base_echo_straight_300_47: 1995328137
+      base_echo_straight_300_33: 1876349676
+      base_echo_straight_300_62: -372201866
+      base_echo_straight_300_45: -665843086
+      base_echo_straight_300_66: 1618371484
+      Sine_F_head: -1121750506
+      base_echo_straight_300_23: 384861025
+      base_echo_straight_300_3: 1901731624
+      Sine_F_waist: 356964240
+      Sine_F_lowerLegRight: 869818881
+      base_echo_straight_300_36: 1840162927
+      base_echo_straight_300_54: -57595268
+      base_echo_straight_300_27: 1553451750
+      base_echo_straight_300_19: -1881191502
+      base_echo_straight_300_52: 320273628
+      base_echo_straight_300_39: 1341701009
+      base_echo_straight_300_60: -933039784
+      base_echo_straight_300_26: 413636253
+      base_echo_straight_300_59: 1734296813
+      base_echo_straight_300_58: 397763186
+      base_echo_straight_300_4: -622316731
+      base_echo_straight_300_67: 2043277583
+      base_echo_straight_300_64: 1979473652
+      base_echo_straight_300_51: 1554923542
+      Sine_F_handRIght: 1305421060
+      base_echo_straight_300_29: 1105990236
+      base_echo_straight_300_30: -2117755611
+      base_echo_straight_300_31: 1541875074
+      base_echo_straight_300_20: -1832451485
+      base_echo_straight_300_50: -282295446
+      base_echo_straight_300_71: -1841048262
+      Sine_F_upperLegLeft: -2067811682
+      Sine_F_upperArmLeft: -653769741
+      Sine_F_lowerLegLeft: 1278487411
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
