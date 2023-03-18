@@ -532,7 +532,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 768
-        y: 7808
+        y: 7807
         width: 128
         height: 128
       alignment: 0
@@ -552,8 +552,8 @@ TextureImporter:
       name: mainlev_build128x128_90
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 7808
+        x: 512
+        y: 7679
         width: 128
         height: 128
       alignment: 0
@@ -1036,7 +1036,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 768
-        y: 7680
+        y: 7679
         width: 128
         height: 128
       alignment: 0
@@ -1413,8 +1413,8 @@ TextureImporter:
       name: mainlev_build128x128_195
       rect:
         serializedVersion: 2
-        x: 896
-        y: 7552
+        x: 640
+        y: 7679
         width: 128
         height: 128
       alignment: 0
@@ -4164,7 +4164,7 @@ TextureImporter:
       name: mainlev_build128x128_549
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1018
         y: 6656
         width: 128
         height: 128
@@ -19389,8 +19389,8 @@ TextureImporter:
       name: mainlev_build128x128_0
       rect:
         serializedVersion: 2
-        x: 2944
-        y: 7936
+        x: 768
+        y: 7935
         width: 128
         height: 128
       alignment: 0
@@ -19410,8 +19410,8 @@ TextureImporter:
       name: mainlev_build128x128_1
       rect:
         serializedVersion: 2
-        x: 2560
-        y: 7936
+        x: 512
+        y: 7935
         width: 128
         height: 128
       alignment: 0
@@ -19431,8 +19431,8 @@ TextureImporter:
       name: mainlev_build128x128_2
       rect:
         serializedVersion: 2
-        x: 2688
-        y: 7936
+        x: 640
+        y: 7935
         width: 128
         height: 128
       alignment: 0
@@ -19452,8 +19452,8 @@ TextureImporter:
       name: mainlev_build128x128_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 7936
+        x: 512
+        y: 7807
         width: 128
         height: 128
       alignment: 0
@@ -20057,13 +20057,13 @@ TextureImporter:
       mainlev_build128x128_1720: 1656884678
       mainlev_build128x128_865: -1467721078
       mainlev_build128x128_2289: -781545174
-      mainlev_build128x128_813: 1834082489
-      mainlev_build128x128_1124: -2142543012
-      mainlev_build128x128_983: 934462187
       mainlev_build128x128_780: -1194812230
+      mainlev_build128x128_983: 934462187
+      mainlev_build128x128_813: 1834082489
+      mainlev_build128x128_299: 420927910
       mainlev_build128x128_2020: 2141508246
       mainlev_build128x128_2082: 1373587093
-      mainlev_build128x128_299: 420927910
+      mainlev_build128x128_1124: -2142543012
       mainlev_build128x128_1621: 1369855509
       mainlev_build128x128_1313: 1730474393
       mainlev_build128x128_434: 825044868

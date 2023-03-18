@@ -223,6 +223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 0.1
+  followY: 0
+  followX: 1
 --- !u!1 &182110387
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +494,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 0.5
+  followY: 0
+  followX: 1
 --- !u!1 &281259279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,7 +1392,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154228278505241206, guid: 22fa38a893306e140b1926f42ab4ddb8, type: 3}
       propertyPath: nameScene
-      value: Start_Scene
+      value: BrownCave1
       objectReference: {fileID: 0}
     - target: {fileID: 154228278909899444, guid: 22fa38a893306e140b1926f42ab4ddb8, type: 3}
       propertyPath: m_RootOrder
@@ -1779,6 +1783,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 0.3
+  followY: 0
+  followX: 1
 --- !u!1 &663405250
 GameObject:
   m_ObjectHideFlags: 0
@@ -2202,6 +2208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 0.2
+  followY: 0
+  followX: 1
 --- !u!1 &704790552
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,6 +3045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 0.7
+  followY: 0
+  followX: 1
 --- !u!1 &1121835927
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,6 +3147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 0.4
+  followY: 0
+  followX: 1
 --- !u!1 &1194307340
 GameObject:
   m_ObjectHideFlags: 0
@@ -3411,6 +3423,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 1
+  followY: 0
+  followX: 1
 --- !u!1 &1449032655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3511,6 +3525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 0.6
+  followY: 0
+  followX: 1
 --- !u!1 &1470471285
 GameObject:
   m_ObjectHideFlags: 0
@@ -3626,10 +3642,17 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "sine\n\u0E2D\u0E4A\u0E30......\u0E19\u0E35\u0E48\u0E21\u0E31\u0E19.....\u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E1E\u0E48\u0E2D\u0E41\u0E25\u0E30\u0E04\u0E38\u0E13\u0E41\u0E21\u0E48\u0E2B\u0E19\u0E34"
-    - "(sine \u0E44\u0E14\u0E49\u0E19\u0E36\u0E01\u0E16\u0E36\u0E07\u0E04\u0E33\u0E1E\u0E39\u0E14\u0E02\u0E2D\u0E07\u0E1E\u0E48\u0E2D\u0E41\u0E25\u0E30\u0E41\u0E21\u0E48\u0E02\u0E2D\u0E07\u0E40\u0E18\u0E2D)"
-    - "\u0E1E\u0E48\u0E2D\u0E02\u0E2D\u0E07 sine \n\"\u0E14\u0E39\u0E41\u0E25\u0E15\u0E31\u0E27\u0E40\u0E2D\u0E07\u0E14\u0E35\u0E46\u0E19\u0E30\u0E25\u0E39\u0E01....\""
-    - "\u0E41\u0E21\u0E48\u0E02\u0E2D\u0E07 sine \n\"\u0E25\u0E39\u0E01\u0E23\u0E31\u0E01\u0E15\u0E48\u0E2D\u0E08\u0E32\u0E01\u0E19\u0E35\u0E49\u0E25\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E14\u0E39\u0E41\u0E25\u0E08\u0E31\u0E27\u0E40\u0E2D\u0E07\u0E41\u0E25\u0E49\u0E27\u0E19\u0E30\""
+    - "Sine: \u0E2D\u0E49\u0E30...\u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E04\u0E2D\u0E19\u0E35\u0E48!
+      \u0E17\u0E33\u0E44\u0E21\u0E16\u0E36\u0E07\u0E21\u0E32\u0E15\u0E01\u0E15\u0E23\u0E07\u0E19\u0E35\u0E49\u0E25\u0E48"
+    - "Sine: \u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E1A\u0E1A\u0E19\u0E35\u0E49\u2026\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E1A\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E1E\u0E48\u0E2D\u0E44\u0E21\u0E48\u0E21\u0E35\u0E1C\u0E34\u0E14\u0E40\u0E25\u0E22"
+    - "*sine \u0E2B\u0E27\u0E19\u0E19\u0E36\u0E01\u0E16\u0E36\u0E07\u0E04\u0E33\u0E1E\u0E39\u0E14\u0E02\u0E2D\u0E07\u0E1E\u0E48\u0E2D\u0E41\u0E25\u0E30\u0E41\u0E21\u0E48\u0E02\u0E2D\u0E07\u0E40\u0E18\u0E2D\u0E01\u0E48\u0E2D\u0E19\u0E01\u0E32\u0E23\u0E08\u0E32\u0E01\u0E44\u0E1B\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19\u0E17\u0E31\u0E49\u0E07\u0E2A\u0E2D\u0E07*"
+    - "\u0E1E\u0E48\u0E2D: Sine \u0E1E\u0E48\u0E2D\u0E01\u0E31\u0E1A\u0E41\u0E21\u0E48\u0E08\u0E30\u0E2D\u0E2D\u0E01\u0E44\u0E1B\u0E17\u0E33\u0E07\u0E32\u0E19\u0E43\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E44\u0E01\u0E25\u0E41\u0E2A\u0E19\u0E44\u0E01\u0E25
+      \u0E25\u0E39\u0E01\u0E23\u0E2D\u0E2D\u0E22\u0E39\u0E48\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E44\u0E14\u0E49\u0E23\u0E36\u0E40\u0E1B\u0E25\u0E48\u0E32"
+    - "\u0E41\u0E21\u0E48: \u0E44\u0E21\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E07\u0E27\u0E25\u0E19\u0E30\u0E08\u0E49\u0E30\u0E04\u0E19\u0E14\u0E35
+      \u0E41\u0E21\u0E48\u0E08\u0E30\u0E40\u0E02\u0E35\u0E22\u0E19\u0E08\u0E14\u0E2B\u0E21\u0E32\u0E22\u0E21\u0E32\u0E2B\u0E32\u0E2B\u0E19\u0E39\u0E1A\u0E48\u0E2D\u0E22
+      \u0E46 \u0E19\u0E30\u0E04\u0E30"
+    - "\u0E1E\u0E48\u0E2D\u0E41\u0E25\u0E30\u0E41\u0E21\u0E48: \u0E14\u0E39\u0E41\u0E25\u0E15\u0E31\u0E27\u0E40\u0E2D\u0E07\u0E19\u0E30\u0E25\u0E39\u0E01\u0E23\u0E31\u0E01"
+    - "Sine: \u0E2A\u0E38\u0E14\u0E17\u0E49\u0E32\u0E22\u0E41\u0E25\u0E49\u0E27 \u0E09\u0E31\u0E19\u0E01\u0E47\u0E44\u0E21\u0E48\u0E40\u0E04\u0E22\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E08\u0E14\u0E2B\u0E21\u0E32\u0E22\u0E08\u0E32\u0E01\u0E1E\u0E27\u0E01\u0E40\u0E02\u0E32\u0E41\u0E21\u0E49\u0E41\u0E15\u0E48\u0E09\u0E1A\u0E31\u0E1A\u0E40\u0E14\u0E35\u0E22\u0E27"
   PM: {fileID: 814846475}
   IsTriggered: 0
 --- !u!1 &1511414221
@@ -4646,6 +4669,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1632933458}
   parallexEffect: 0.8
+  followY: 0
+  followX: 1
 --- !u!1 &1688006372
 GameObject:
   m_ObjectHideFlags: 0
@@ -6075,6 +6100,8 @@ MonoBehaviour:
   dialogueText: {fileID: 6143256746038643738}
   UiWhileGame: {fileID: 1368452578}
   ShowUi: 0
+  EchoCheck: 0
+  EchoAnim: {fileID: 0}
   DialogueOBJ: {fileID: 5971661371340410718}
 --- !u!4 &5971661371061897470
 Transform:
@@ -6601,9 +6628,9 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "sine\n\u0E21\u0E32\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E04\u0E34\u0E14\u0E16\u0E39\u0E01\u0E41\u0E25\u0E40\u0E27\u0E23\u0E36\u0E40\u0E1B\u0E25\u0E48\u0E32\u0E19\u0E30"
-    - "sine\n\u0E1E\u0E48\u0E2D\u0E04\u0E48\u0E30...\u0E41\u0E21\u0E48\u0E04\u0E48\u0E30..."
-    - 
+    - "Sine: \u0E19\u0E35\u0E48\u0E09\u0E31\u0E19\u0E04\u0E34\u0E14\u0E16\u0E39\u0E01\u0E08\u0E23\u0E34\u0E07
+      \u0E46  \u0E23\u0E36\u0E40\u0E1B\u0E25\u0E48\u0E32\u0E19\u0E30 \u0E17\u0E35\u0E48.....\u0E01\u0E49\u0E32\u0E27\u0E02\u0E32\u0E40\u0E02\u0E49\u0E32\u0E21\u0E32\u0E43\u0E19\u0E17\u0E35\u0E48\u0E41\u0E2B\u0E48\u0E07\u0E19\u0E35\u0E49"
+    - "Sine: \u0E04\u0E38\u0E13\u0E1E\u0E48\u0E2D\u0E04\u0E30.....\u0E04\u0E38\u0E13\u0E41\u0E21\u0E48\u0E04\u0E30...\u0E2B\u0E19\u0E39\u0E04\u0E34\u0E14\u0E16\u0E39\u0E01\u0E41\u0E25\u0E49\u0E27\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21"
   PM: {fileID: 814846475}
   IsTriggered: 0
 --- !u!61 &9008212614157219580
