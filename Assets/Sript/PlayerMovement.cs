@@ -87,11 +87,15 @@ public class PlayerMovement : MonoBehaviour
         {
             state = MovemenState.jumping;
         }
-        else if (rb.velocity.y < -.1f) {
+        else if (rb.velocity.y < -.1f && !IsGound()) {
             state = MovemenState.falling;
         }
         anim.SetInteger("state",(int)state);
         
+    }
+
+    public void defaultAnim() {
+        anim.SetInteger("state", 0);
     }
 
     public bool IsGound() {

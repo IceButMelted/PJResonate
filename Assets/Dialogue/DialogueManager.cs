@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -10,6 +11,8 @@ public class DialogueManager : MonoBehaviour {
     public TextMeshProUGUI dialogueText;
     public GameObject UiWhileGame;
     public bool ShowUi;
+    public GameObject Echo;
+    public Animator EchoAnim;
     public GameObject DialogueOBJ;
 
 
@@ -43,7 +46,7 @@ public class DialogueManager : MonoBehaviour {
             EndDialogue();
             return;
         }
-
+        UiWhileGame.SetActive(false);
         string sentence= sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
@@ -66,5 +69,15 @@ public class DialogueManager : MonoBehaviour {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         FindObjectOfType<PlayerMovement>().enabled = true;
+        
+        
+        if (Echo != null && EchoAnim != null) {
+            EchoAnim.SetInteger("state", 1);
+            int distance = 0;
+            while (distance < 50) {
+                Echo.transform.position = new Vector3(Echo.transform.position.x + distance, Echo.transform.position.y, Echo.transform.position.z);
+            }
+            Echo.SetActive(false);
+        }
     }
 }

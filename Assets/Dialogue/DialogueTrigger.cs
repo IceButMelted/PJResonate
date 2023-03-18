@@ -13,6 +13,7 @@ public class DialogueTrigger : MonoBehaviour {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         PM.enabled = false;
+        PM.SendMessage("defaultAnim");
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         //Debug.Log("open");
     }

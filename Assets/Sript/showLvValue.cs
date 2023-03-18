@@ -49,7 +49,7 @@ public class showLvValue : MonoBehaviour
             float timeer = alphaControl.DELAY_TIME - alphaControl.delayTimer;
             if (timeer == 5)
             {
-                txtCoolDown.text = "Ready";
+                txtCoolDown.text = "Item\nReady";
                 if (reading) txtCoolDown.text = "Using";
             }
             else
