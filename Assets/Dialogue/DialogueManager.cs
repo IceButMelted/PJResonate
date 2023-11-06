@@ -86,6 +86,7 @@ public class DialogueManager : MonoBehaviour {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+        UiWhileGame.SetActive(true);
     }
 
     public void EndTut(){

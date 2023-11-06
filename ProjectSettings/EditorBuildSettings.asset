@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DEMOMap.unity
     guid: a01ba9e2bf521db428f82f55fbc58001
+  - enabled: 1
+    path: Assets/Scenes/End Demo.unity
+    guid: bc83c6ae8176716bebb33eec73b2b142
   m_configObjects: {}
