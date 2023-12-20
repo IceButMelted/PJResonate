@@ -3626,7 +3626,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -16, y: -64}
+        - {x: -27, y: -57}
+        - {x: -64, y: -57}
       tessellationDetail: 0
       bones: []
       spriteID: 38b91bd53a724a842b6a78d1c2d2e4d2
@@ -3773,7 +3777,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 8}
+        - {x: -19, y: 64}
       tessellationDetail: 0
       bones: []
       spriteID: 20e512ee54541e74b9c5cb78b65ba8fc
@@ -3794,7 +3803,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 8}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -64}
+        - {x: -4, y: -17}
       tessellationDetail: 0
       bones: []
       spriteID: ca4f6c22c2cbbcc43a5cb862053dcc6d
@@ -3815,7 +3829,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 27}
+        - {x: 4, y: 47}
       tessellationDetail: 0
       bones: []
       spriteID: 4c1338971f86fd44aa9eb909ea616ee2
@@ -3836,7 +3855,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 25}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -64}
+        - {x: -6, y: -1}
       tessellationDetail: 0
       bones: []
       spriteID: 3cfacb3a0552a244a8ae1ddafd44796f
@@ -20185,13 +20209,13 @@ TextureImporter:
       mainlev_build128x128_1720: 1656884678
       mainlev_build128x128_865: -1467721078
       mainlev_build128x128_2289: -781545174
-      mainlev_build128x128_813: 1834082489
-      mainlev_build128x128_1124: -2142543012
-      mainlev_build128x128_983: 934462187
       mainlev_build128x128_780: -1194812230
+      mainlev_build128x128_983: 934462187
+      mainlev_build128x128_813: 1834082489
+      mainlev_build128x128_299: 420927910
       mainlev_build128x128_2020: 2141508246
       mainlev_build128x128_2082: 1373587093
-      mainlev_build128x128_299: 420927910
+      mainlev_build128x128_1124: -2142543012
       mainlev_build128x128_1621: 1369855509
       mainlev_build128x128_1313: 1730474393
       mainlev_build128x128_434: 825044868

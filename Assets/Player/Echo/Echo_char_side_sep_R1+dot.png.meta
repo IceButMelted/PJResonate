@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: a3f87edd7c9114d4395ad3a6753146f7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EShead
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1269
+        width: 579
+        height: 618
+      alignment: 9
+      pivot: {x: 0.46989986, y: 0.08694409}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b1bbaf2e5f63b44a3f049d2496218e
+      internalID: 1539980410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESbackHood
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1167
+        width: 804
+        height: 766
+      alignment: 9
+      pivot: {x: 0.5357027, y: 0.37018013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcb6ba6af1d8d34abad04fb549fa71e
+      internalID: -1556380987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hood
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 601
+        width: 469
+        height: 519
+      alignment: 9
+      pivot: {x: 0.5021859, y: 0.7706145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6559325d219889489f8008e602e27fc
+      internalID: 1331612764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESupperArm
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 652
+        width: 232
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65294945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec9ffaf43bbee9468ffeebd2a3d43e8
+      internalID: 1085662426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESlowerArm
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 663
+        width: 208
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5394299, y: 0.6975106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac219beecbfc9444bcea4016f97fa31
+      internalID: 1276427890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Echo_char_side_sep_R1+dot_5
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 552
+        width: 306
+        height: 407
+      alignment: 9
+      pivot: {x: 0.49664986, y: 0.44962275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d535dfd3abacd2c4296d9b2178ee7c6d
+      internalID: -1333216202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Echo_char_side_sep_R1+dot_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 394
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260f0d691711c2145b4285118e9ff966
+      internalID: -656224486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Echo_char_side_sep_R1+dot_9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 371
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c61070c9c0e484f8e88b8c5abeb5d1
+      internalID: 40560708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Echo_char_side_sep_R1+dot_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 380
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696e9b4c7978fef4e81232ea7eec8061
+      internalID: 694535000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESfoot
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 194
+        width: 352
+        height: 264
+      alignment: 9
+      pivot: {x: 0.33981636, y: 0.81454223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542f34daaac365945998c827d03ba972
+      internalID: 510105727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESlowerPant
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 205
+        width: 286
+        height: 246
+      alignment: 9
+      pivot: {x: 0.48207742, y: 0.57501245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9597b01b48d7d464588ed0c15322fd78
+      internalID: 1890977501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESpant
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 197
+        width: 270
+        height: 251
+      alignment: 9
+      pivot: {x: 0.48101535, y: 0.5408436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3147df07eaba434c9a65e05e27114e2
+      internalID: 529159431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Echo_char_side_sep_R1+dot_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 207
+        width: 105
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0700916f1df405446892ba8c0b54c9f1
+      internalID: -865823521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Echo_char_side_sep_R1+dot_15
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 119
+        width: 91
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2c30ef7f2286844bc21c5f54b74d09
+      internalID: 1277130400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Echo_char_side_sep_R1+dot_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 120
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5045e4227e8a7fa41bcc7722fbfb9b4a
+      internalID: 1436976108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Echo_char_side_sep_R1+dot_6
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 200
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d780aa644ffe344983cc1fef097af54
+      internalID: 270380397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hood: 1331612764
+      Echo_char_side_sep_R1+dot_15: 1277130400
+      Echo_char_side_sep_R1+dot_10: 694535000
+      ESupperArm: 1085662426
+      ESlowerArm: 1276427890
+      Echo_char_side_sep_R1+dot_7: -1636309733
+      Echo_char_side_sep_R1+dot_9: 40560708
+      Echo_char_side_sep_R1+dot_6: 270380397
+      ESpant: 529159431
+      Echo_char_side_sep_R1+dot_18: -1844794024
+      Echo_char_side_sep_R1+dot_5: -1333216202
+      Echo_char_side_sep_R1+dot_16: -1376903512
+      Echo_char_side_sep_R1+dot_8: -656224486
+      ESlowerPant: 1890977501
+      EShead: 1539980410
+      Echo_char_side_sep_R1+dot_17: 508912047
+      ESfoot: 510105727
+      Echo_char_side_sep_R1+dot_19: 1436976108
+      ESbackHood: -1556380987
+      Echo_char_side_sep_R1+dot_14: -865823521
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

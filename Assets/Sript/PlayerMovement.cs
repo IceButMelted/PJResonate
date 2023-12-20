@@ -69,23 +69,33 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void AnimSet() {
-        MovemenState state;
-
-        if (horizontal > 0.1f || horizontal < -0.1f){
+    public void AnimSet() {
+        MovemenState state; 
+        if (horizontal > 0f) {
             state = MovemenState.running;
         }
-        else{
+        else if (horizontal < 0f)
+        {
+            state = MovemenState.running;
+        }
+        else
+        {
             state = MovemenState.idle;
         }
-        if (rb.velocity.y > 1f && !IsGound())
+
+        if (rb.velocity.y > .1f && !IsGound())
         {
             state = MovemenState.jumping;
         }
-        else if (rb.velocity.y < -1f) {
+        else if (rb.velocity.y < -.1f && !IsGound()) {
             state = MovemenState.falling;
         }
-        anim.SetInteger("state", (int)state);
+        anim.SetInteger("state",(int)state);
+        
+    }
+
+    public void defaultAnim() {
+        anim.SetInteger("state", 0);
     }
 
     public bool IsGound() {

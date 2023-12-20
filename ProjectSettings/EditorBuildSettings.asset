@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Start-memu/Start_Scene.unity
     guid: 8e7c5c5d4b88beb41a1acf9ab5adb9df
   - enabled: 1
+    path: Assets/Scenes/houseAndCave/House1.unity
+    guid: 33692a862362b7540af8ba34634d097e
+  - enabled: 1
+    path: Assets/Scenes/houseAndCave/House2.unity
+    guid: a6995218ca6b57a4197976a6137cc61f
+  - enabled: 1
+    path: Assets/Scenes/houseAndCave/BrownCave1.unity
+    guid: 885320aa38dd5704486bf874f7b7bd77
+  - enabled: 1
     path: Assets/Scenes/DEMOMap.unity
     guid: a01ba9e2bf521db428f82f55fbc58001
+  - enabled: 1
+    path: Assets/Scenes/End Demo.unity
+    guid: bc83c6ae8176716bebb33eec73b2b142
   m_configObjects: {}
